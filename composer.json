@@ -1,0 +1,38 @@
+{
+  "name": "mcihelmelo/speedtest",
+  "description": "Speedtest.net for PHP | Library and command line interface",
+  "authors": [
+    {
+      "name": "Michel Melo",
+      "homepage": "https://michelmelo.pt",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "MichelMelo\\Speedtest\\": "src/"
+    }
+  },
+  "require": {
+    "php": ">=7.0",
+    "ext-curl": ">=7.0",
+    "guzzlehttp/guzzle": "^7.5"
+  },
+  "license": "Apache-2.0",
+  "bin": [
+    "bin/speedtest"
+  ],
+  "keywords": [
+    "speedtest",
+    "bandwidth",
+    "speed",
+    "php",
+    "download",
+    "upload",
+    "speedtest-net",
+    "ookla"
+  ],
+  "require-dev": {
+    "friendsofphp/php-cs-fixer": "^3.16"
+  }
+}
